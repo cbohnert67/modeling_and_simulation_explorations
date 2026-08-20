@@ -13,7 +13,7 @@ Ce projet offre un cadre complet pour étudier ce phénomène :
 *   **Un module Python Orienté Objet** ([`src/condorcet.py`](src/condorcet.py)) permettant de représenter des électeurs, d'évaluer des duels par paires, d'exécuter l'algorithme DFS de détection de cycles et de lancer des simulations de Monte-Carlo.
 *   **Une suite de tests unitaires** avec Pytest ([`tests/test_condorcet.py`](tests/test_condorcet.py)) garantissant la qualité et la robustesse des algorithmes.
 *   **Un Notebook Jupyter interactif** ([`notebooks/condorcet_paradox_exploration.ipynb`](notebooks/condorcet_paradox_exploration.ipynb)) pour expérimenter avec des cas concrets (politique, entreprise) et générer des cartes thermiques/graphiques.
-*   **Un article de fond exhaustif** ([`final_article.md`](final_article.md)) détaillant la théorie mathématique, le théorème d'impossibilité d'Arrow, les applications réelles et les alternatives électorales (Borda, Jugement Majoritaire, IRV).
+*   **Un article de fond exhaustif** ([`technical_article.md`](technical_article.md)) détaillant la théorie mathématique, le théorème d'impossibilité d'Arrow, les applications réelles et les alternatives électorales (Borda, Jugement Majoritaire, IRV).
 *   **Un article vulgarisé** ([`article.md`](article.md)) expliquant de manière simple et accessible les enjeux du paradoxe et les solutions alternatives.
 
 ---
@@ -24,7 +24,7 @@ Ce projet offre un cadre complet pour étudier ce phénomène :
 condorcet_paradox/
 │
 ├── article.md                                # Article vulgarisé et accessible
-├── final_article.md                          # Article de fond complet et technique
+├── technical_article.md                      # Article de fond complet et technique
 ├── README.md                                 # Documentation du sous-projet
 │
 ├── src/
