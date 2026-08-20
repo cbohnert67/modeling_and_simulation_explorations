@@ -1,0 +1,41 @@
+# Environnements virtuels
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Fichiers compilés et caches Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest & couverture de tests
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Checkpoints Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Configuration des éditeurs / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Fichiers système d'exploitation
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Artefacts de build / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
